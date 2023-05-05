@@ -313,7 +313,7 @@ span{
         
     }
     .list-2{
-     background-color: bisque;
+     /* background-color: bisque; */
      margin-top: 200px;
      display: flex;
      justify-content: center;
