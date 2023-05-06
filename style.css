@@ -13,6 +13,8 @@ body{
 }
 .main-header{
     margin-top: 20px;
+    display: flex;justify-content: center;
+    align-items: center;
 }
 .section-1{
     background-color: rgb(177, 177, 105);
@@ -76,10 +78,18 @@ border: 3px solid white;
     margin-left: 20px;
     color: rgb(98, 101, 101);
 }
+main{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .section-2{
+    width: 1320px;
+    height: auto;
     display:flex;
     justify-content: center;
-    /* align-items: center; */
     margin-top: 50px;
     gap: 24px;
     margin-bottom: 130px;
