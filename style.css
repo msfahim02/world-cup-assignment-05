@@ -240,9 +240,8 @@ footer{
     color:rgb(232, 200, 157);
     
 }
-span{
+.footer-object{
     display: flex;
-    
     gap: 50px;
 }
 .footer-liss-positon{
