@@ -7,22 +7,20 @@ body{
     align-items:center;
     justify-content: center;
     position: relative;
-    border: 2px solid red;
-    background-color: gray;
+    /* border: 2px solid red; */
+    /* background-color: gray; */
     
 }
+.main-header{
+    margin-top: 20px;
+}
 .section-1{
-    background-color: black;
+    background-color: rgb(177, 177, 105);
     color: #ffffff;
     display: flex;
     justify-content: center;
     border-radius: 30px;
     align-items: center;
-    border: 2px solid red;
-    width: 100%;
-    height:100%; */
-    justify-content: center;
-    margin-top: 20px;
 }
 a{
     text-decoration: none;
@@ -44,13 +42,14 @@ h1:hover{
 }
 .half-width-img{
     width: 50%;
+    display: flex;
+    background-color: rgb(177, 177, 105);
+    border-radius: 0px 30px 30px 0px;
     
 }
 .half-width-img img{
     width: 100%;
-    /* margin-top: 18px; */
     margin-bottom: 0;
-    background-color: yellow;
 }
 .half-width a{
     display: flex;
@@ -82,7 +81,7 @@ border: 3px solid white;
     margin-top: 50px;
     gap: 24px;
     margin-bottom: 130px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .side-box-width{
     display: flex;
@@ -95,13 +94,13 @@ border: 3px solid white;
 }
 .side-box{
     display: flex;
-    background-color: black;
+    background-color: rgb(83, 54, 54);
     width: 312px;
     height: 312px;
     border-radius: 10px;
 
 }
-.list-1{
+.side-box>.list-1{
     display: flex;
     flex-direction: column;
     
@@ -111,7 +110,6 @@ border: 3px solid white;
     display: flex;
     margin-bottom: 20px;
     font-size: 30px;
-    margin-right: 29px;
 }
 .list-1>li>a{
     text-decoration: none;
@@ -135,7 +133,7 @@ ul>li>a:hover{
 
 }
 #blog{
-    background-color: red;
+    background-color: tomato;
     color: #ffffff;
 }
 .blog{
@@ -202,7 +200,6 @@ footer{
     align-items: center;
     justify-content: center;
     margin-top: 130px;
-    border: red;
     margin-bottom: 130px;
 }
 .footer-list {
