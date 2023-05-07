@@ -231,7 +231,8 @@ footer{
 Mobile Media Query
 ----------------------------------- */
 
-@media only screen and (max-width: 668px) {
+@media screen and
+(max-width: 767px) {
     .section-1{
         display: flex;
         flex-direction: column;
