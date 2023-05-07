@@ -13,11 +13,13 @@ body{
 }
 .main-header{
     margin-top: 20px;
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .section-1{
     background-color: rgb(177, 177, 105);
+    border: 3px solid rgb(241, 43, 43);
     color: #ffffff;
     width: 1320px;
     height: auto;
@@ -36,7 +38,7 @@ h1{
    margin-bottom: 0;
 }
 h1:hover{
-    color: red;
+    color:darkgoldenrod;
 }
 .half-width{
     display: flex;
@@ -47,7 +49,7 @@ h1:hover{
 .half-width-img{
     width: 50%;
     display: flex;
-    background-color: rgb(177, 177, 105);
+    /* background-color: rgb(177, 177, 105); */
     border-radius: 0px 30px 30px 0px;
     
 }
@@ -69,6 +71,7 @@ h1:hover{
 padding: 5px;
 font-size: 25px;
 border: 3px solid white;
+position: ;
 }
 .fa-circle-arrow-right{
     display: flex;
@@ -140,9 +143,7 @@ main{
 ul>li>a:hover{
     background-color: rgb(102, 102, 98);
     border: 1px solid white;
-    position: relative;
     
-
 }
 #blog{
     background-color: tomato;
@@ -177,6 +178,7 @@ ul>li>a:hover{
 .transfer a:hover{
     color: green;
     font-weight:bolder;
+    font-size: 25px;
 }
 .h3-box h3{
     width: 272px;
@@ -254,26 +256,38 @@ footer{
     
     
 .main-header{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1{
+    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: antiquewhite; */
+    border-radius: 30px;
 }
 .half-width{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     /* background-color: antiquewhite; */
 }
-.half-width p{
+.watch-live{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    background-color: aqua;
+}
+.half-width> p{
     width: 60%;
     /* background-color: rgb(146, 92, 27); */
+
 }
 .half-width h1{
-    width: 70%;
+    width: 60%;
     display: block;
     align-items: center;
     justify-content: center;
@@ -287,12 +301,13 @@ footer{
     justify-content: center;
 }
     .half-width-img img{
-        width: 92%;
+        width: 90%;
+        margin-left: 30px;
         /* background-color: bisque; */
         /* display: flex; */
         /* align-items: center; */
         /* justify-content: center; */
-        margin-top: 0;
+        /* margin-top: 0; */
     }
     .section-2{
         width: 100%;
@@ -312,12 +327,15 @@ footer{
     }
     .main-box-width{
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
 
+    }
+    .blog{
+        height: auto;
+        /* background-color: aqua; */
     }
     .goal{
         margin-top: 0;
